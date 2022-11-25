@@ -21,3 +21,11 @@ function gotPoses(results) {
         console.log("leftWristX = " + leftWristX + "rightWristX = " + rightWristX + "difference = " + difference);
     }
 }
+function draw()  {
+    background("#f63194");
+    textSize(difference);
+    document.getElementById("font").innerHTML= "A largura e a altura deu= " + difference + "px";
+    fill("#715ed1");
+    stroke("#5ed1c6");
+    text("Ceci :D", 100, 100);
+}
